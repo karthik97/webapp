@@ -9,10 +9,9 @@ def hello():
     provider = str(os.environ.get('PROVIDER', 'world'))
     return 'Hello '+provider+'!'
     
-@app.route('/test2')
+@app.route('/test')
 def test():
-    
-    return 'Hello test world!'
+    return 'Hello !!!!!!!!!!'
     
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
